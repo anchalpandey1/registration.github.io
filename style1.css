@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   /*background-color: black;*/
+   background: url("a.jpg");
+   font-family: new time roman;
+   
+}
+h1{
+    font-size: 60px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+   
+   
+}
+.label{
+    font-size: 19px;
+    margin-top: 20px;
+    font-weight:bold;
+    color: aliceblue;
+    /*display: flex;*/
+    margin-right: 90px;
+    
+}   
+.form-control{
+    background: white;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid rgb(14, 13, 13);
+    font-size: 21px;
+    color: white;
+    margin-top: 20px;
+    
+  
+}
+.form-control:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px rgb(141, 211, 120),0 0 10px white,0 0 15px white;
+    font-weight: bold;
+}
+small{
+    font-size: 19px;
+    color: black;
+}
+
+.container{
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   text-align: right;
+   width: 800px;
+   line-height: 30px;
+   margin-bottom: 10px;
+   
+}
+option{
+    color: dodgerblue;
+}
+.btn-info{
+    margin-top: 30px;
+   margin-right: 400px;
+    width: 180px;
+    font-size: 19px;
+    border-radius: 100px;
+    transition: .6s ease;
+}
+.btn-info:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px rgb(141, 211, 120),0 0 10px white,0 0 15px white;
+    font-weight: bold;
+}
+.col-md-6{
+    background: rgba(0,0,0,0.4);
+    height: 680px;
+    width:900px ;
+    box-shadow:-1px 1px 60px 10px  black;
+}
+.language{
+    width: 580px;
+    height:40px;
+    margin-top: 10px;
+}
+
+    
